@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Crude operation in js</title>
+</head>
+
+<section>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFromSubmit()">
+                    <div>
+                        <label for="Name">Full Name</label>
+                        <input type="text" name="Name" id="Name" required="required">
+                    </div>
+                    <div>
+                        <label for="empcode">Emp code</label>
+                        <input type="text" name="empcode" id="empcode" required="required">
+                    </div>
+                    <div>
+                        <label for="Salary">Monthly Salary </label>
+                        <input type="text" name="Salary" id="Salary" required="required">
+                    </div>
+                    <div>
+                        <label for="city"> Current City</label>
+                        <input type="text" name="city" id="city" required="required">
+                    </div>
+                    <div class="form-acton-buttons">
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="storelist">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Emp code</th>
+                            <th>Salary </th>
+                            <th>city</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</section>
+
+</html>
