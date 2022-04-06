@@ -23,7 +23,7 @@ td {
 }
 
 tr:nth-child(even),
-table.list thead>tr {
+table.list thead tr {
     background-color: rgb(87, 131, 151);
 }
 
